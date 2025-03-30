@@ -11,4 +11,4 @@ Think: **Google Maps for the Milky Way**, curated like **Wikipedia**, visualised
 
 This is a personal passion project in its early stages. For now, it's a placeholder site, but the mission is clear: bring the galaxy to your browser.
 
-🔭 Stay tuned, and feel free to star, fork, or contribute!
+🔭 Stay tuned!
