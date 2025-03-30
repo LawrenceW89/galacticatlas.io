@@ -34,6 +34,11 @@
                 "glob": "CNAME",
                 "input": "src/assets",
                 "output": "/"
+              },
+              {
+                "glob": "404.html",
+                "input": "src",
+                "output": "/"
               }
             ],
             "styles": [
@@ -55,7 +60,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "https://galacticatlas.io/",
+              "deployUrl": "https://galacticatlas.io/"
             },
             "development": {
               "optimization": false,

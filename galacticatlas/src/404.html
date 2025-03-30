@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Galacticatlas</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    var pathSegmentsToKeep = 0;
+    var l = window.location;
+    var r = l.pathname.split('/').slice(1);
+    var rep = r.slice(pathSegmentsToKeep).join('/');
+    var s = l.origin + '/' + rep;
+    window.history.replaceState(null, null, s);
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html> 
