@@ -1,0 +1,38 @@
+// Scheme Colors
+$text-white: #FFFFFF;
+$bg-black: #000000;
+$nav-bar-slate: #1a1a1a;
+$hover-grey-white: #e6e6e6;
+
+// Typography
+$font-heading:'Consolas', 'Space Mono', monospace;
+$font-body: 'Consolas', 'Space Mono', monospace;
+
+// Typography Mixins
+@mixin base-text {
+  font-family: $font-body;
+  line-height: 1.6;
+  color: $text-white;
+}
+
+@mixin heading-base {
+  font-family: $font-heading;
+  letter-spacing: 0.05em;
+}
+
+@mixin h1-style {
+  @include heading-base;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+@mixin h2-style {
+  @include heading-base;
+  font-size: 2rem;
+}
+
+@mixin h3-style {
+  @include heading-base;
+  font-size: 1.75rem;
+}

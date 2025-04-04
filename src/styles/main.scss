@@ -1,0 +1,17 @@
+// Import variables
+@import 'variables';
+
+// Global styles
+:root {
+  // Making colors available as CSS variables
+  --text-white: #{$text-white};
+  --bg-black: #{$bg-black};
+}
+
+// Basic reset and defaults
+body {
+  margin: 0;
+  padding: 0;
+  color: $text-white;
+  background-color: $bg-black;
+} 

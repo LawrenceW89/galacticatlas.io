@@ -1,3 +1,46 @@
-<div>
-  <!-- Content will be added later -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    galacticatlas.io
+  </div>
+  <div class="navbar-menu">
+    <div class="nav-item" (click)="showSection('home')">Home</div>
+    <div class="nav-item" (click)="showSection('news')">News</div>
+    <div class="nav-item" (click)="showSection('about')">About</div>
+  </div>
+</nav>
+
+<div class="content">
+  @if (showHome) {
+    <div class="home-section">
+      <app-star-map></app-star-map>
+    </div>
+  }
+
+  @if (showNews) {
+    <div class="news-section">
+      News
+      <!-- Add your news content here -->
+    </div>
+  }
+
+  @if (showAbout) {
+    <div class="about-section">
+      <div class="about-content">
+        <p><strong>Galactic Atlas</strong> is an interactive, ever-expanding map of our galaxy — a digital star chart where you can explore real stars, exoplanets, and systems discovered by missions like Kepler, TESS, and the James Webb Space Telescope.</p>
+
+        <p>🛰️ Built to grow alongside humanity's exploration of the stars, this project aims to combine:</p>
+        <ul>
+          <li>Accurate, up-to-date astronomical data</li>
+          <li>A beautiful, responsive, map-based UI</li>
+          <li>Community-powered contributions and insights</li>
+        </ul>
+
+        <p>Think: <strong>Google Maps for the Milky Way</strong>, curated like <strong>Wikipedia</strong>, visualised like <strong>No Man's Sky</strong> — but rooted in reality.</p>
+
+        <p>This is a personal passion project in its early stages. For now, it's a placeholder site, but the mission is clear: bring the galaxy to your browser.</p>
+
+        <p>🔭 Stay tuned!</p>
+      </div>
+    </div>
+  }
 </div> 

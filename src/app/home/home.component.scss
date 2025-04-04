@@ -1,1 +1,43 @@
-// Styles will be added later with Tailwind 
+@import '../../styles/variables';
+
+.navbar {
+  @include h3-style;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $nav-bar-slate;
+  color: $text-white;
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  .navbar-menu {
+    @include h3-style;
+    display: flex;
+    gap: 2rem;
+
+    .nav-item {
+      cursor: pointer;
+      
+      &:hover {
+        color: $hover-grey-white;
+      }
+    }
+  }
+}
+
+.content {
+  padding: 2rem;
+
+  .home-section, .news-section, .about-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .about-content {
+    @include base-text;
+  }
+}
