@@ -31,10 +31,10 @@ export class StarMapComponent implements AfterViewInit, OnDestroy {
   // Star data - Sol and a few nearby stars
   private stars: Star[] = [
     { name: 'Sol', x: 0, y: 0, z: 0, color: '#FFFF00', size: 1 },
-    { name: 'Proxima Centauri', x: 1.3, y: 0.9, z: 0.4, color: '#FF6666', size: 0.3 },
-    { name: 'Alpha Centauri A', x: 1.3, y: 1.1, z: 0.5, color: '#FFDD66', size: 0.9 },
-    { name: 'Alpha Centauri B', x: 1.3, y: 1.05, z: 0.55, color: '#FFBB66', size: 0.7 },
-    { name: 'Barnard\'s Star', x: -1.5, y: 1.2, z: -0.2, color: '#FF4444', size: 0.2 },
+    { name: 'Proxima Centauri', x: 1.3, y: 0.9, z: 0.4, color: '#FF6666', size: 0.1 },
+    { name: 'Alpha Centauri A', x: 1.3, y: 1.1, z: 0.5, color: '#FFDD66', size: 0.2 },
+    { name: 'Alpha Centauri B', x: 1.3, y: 1.05, z: 0.55, color: '#FFBB66', size: 0.1 },
+    { name: 'Barnard\'s Star', x: -1.5, y: 1.2, z: -0.2, color: '#FF4444', size: 0.1 },
     { name: 'Sirius', x: -2.6, y: -0.6, z: -1.8, color: '#AAAAFF', size: 1.1 }
   ];
 
