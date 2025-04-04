@@ -6,8 +6,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: $nav-bar-slate;
+  background-color: $bg-black;
   color: $text-white;
+  border-bottom: 1px solid $nav-bar-slate;
 
   .navbar-brand {
     margin: 0;
